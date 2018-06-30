@@ -2,7 +2,6 @@
 
 
 function makeGrid() {
-
 // selecting input of the grid
 var width, height, color, canvas, rows;
 
@@ -15,7 +14,7 @@ var width, height, color, canvas, rows;
 canvas.children().remove();
   for (var i = 0; i < height; i++) {
 
-      $('#pixelCanvas').append('<tr></tr>');
+      canvas.append('<tr></tr>');
   }
 
 rows = $('tr');
@@ -23,7 +22,7 @@ rows = $('tr');
 
           rows.append('<td></td>');
       }
-  //}
+  
 cell = canvas.find('td');
 //once user clicked on the td change the color
 cell.click(function(){
@@ -45,7 +44,7 @@ submitQuery.click(function(event){
 });
 
 
-$("body").css({"background-color", "grey"});
+//$("body").css({"background-color", "grey"});
 
 
-$("h2").css({"border : 3px solid grey"});
+//$("h2").css({"border : 3px solid grey"});
