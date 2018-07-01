@@ -1,7 +1,7 @@
 # Pixel Art Maker Project
 
 ## Table of Contents
-* [click here to view the project](#https://abdulgafaar.github.io)
+* [https://abdulgafaar.gihub.io](#Click here to see the project link)
 * [Instructions](#instructions)
 * [Contributing](#contributing)
 
